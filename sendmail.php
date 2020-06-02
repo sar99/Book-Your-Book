@@ -1,6 +1,6 @@
 <?php
 session_start();
-$conn=mysqli_connect("localhost","root","","webkriti")
+$conn=mysqli_connect("localhost","root","","dbslab")
 or die('Error connecting to MySQL server.'); 
 use PHPMailer\PHPMailer\PHPMailer;
 	use PHPMailer\PHPMailer\Exception;
